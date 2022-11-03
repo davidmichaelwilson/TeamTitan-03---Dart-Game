@@ -1,0 +1,31 @@
+Instructions
+Now it's time for you to build out this game. The objective is to hit 100 points.
+
+The game should work like this:
+
+The game starts at 0, 0 for the score.
+
+Player One goes first.
+
+Clicking the "Throw Darts" button shows a random number in the score graphic of 1 - 20.
+
+That number adds to the Score.
+
+Player Two goes next.
+
+Steps 3 and 4 happen.
+
+After this the players alternate.The score should keep incrementing.
+
+Whoever reaches 100 points wins. Show a message saying which player wins.
+
+Reset the game to 0,0.
+
+Improvements:
+Once you've done the basics, improve the game by:
+
+Fixing the probabilities of hitting different numbers on the dart board.
+
+Do something special when a player gets a 20 or bullseye.
+
+Make the UI pretty.

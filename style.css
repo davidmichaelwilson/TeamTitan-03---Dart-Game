@@ -1,0 +1,124 @@
+html, body {
+  --color-1: #000000;
+  --color-2: #fafffb;
+  --color-3: #ffd3b6;
+  --color-4: #ffaaa5;
+  --color-5: #ec182a;
+    
+  --color-7: #e60f0f11;
+  
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding-top: 50px;
+/*     background-image: linear-gradient(200deg, var(--color-1) , var(--color-2)); */
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+  color: black;
+  background-image: url("images/dartboard.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.title {
+  color: var(--color-5);
+  border-bottom: 2px solid black;
+}
+
+.container {
+  width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: rgba(255,255,255, .85);
+  box-shadow: -2px 6px 18px 3px rgba(0,0,0,0.75);
+  padding: 20px;
+}
+
+.players {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+ .throw {
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: var(--color-3);
+  margin: 0 auto;
+  font-size: 80px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+ 
+
+ button {
+  color: #fff;
+  padding: 20px 30px;
+  font-size: 20px;
+  margin: 40px auto;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; */
+} 
+
+#throw-Button {
+  background-color: var(--color-5);
+
+}
+
+#reset-Button {
+  background-color: var(--color-4);
+}
+
+#playerTwo-continue {
+  background-color: blue; 
+}
+
+#playerOne-continue {
+  background-color: red; 
+}
+
+#reset-Button {
+  display: none;
+}
+
+#playerOne-continue {
+  display: none;
+}
+
+#playerTwo-continue {
+  display: none; 
+}
+
+#firstThrow-Button {
+  background-color: var(--color-5);
+
+}
+
+#secondThrow-Button{
+  background-color: var(--color-5); 
+}
+
+ #secondThrow-Button{
+  display: none;
+}
+
+#firstThrow-Button {
+  display:none;
+  
+} 
+
+.active {
+  box-shadow: -2px 6px 18px 3px rgba(0,0,0,0.75);
+}
+
+
+button:focus {
+  outline: none;
+}
+
+
